@@ -8,7 +8,10 @@
 
     </head>
     <body>
-        <h1>Google Login</h1>
-        <a href="{{ route('loginsoc') }}">Login with Google</a>
+        <h1>SSO Login</h1>
+        {{-- login with google --}}
+        <a href="{{ route('loginsoc') }}">Login with Google</a><br><br>
+        {{-- login with github --}}
+        <a href="{{ route('logingithub') }}">Login with Github</a>
     </body>
 </html>

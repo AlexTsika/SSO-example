@@ -55,16 +55,18 @@ Follow these steps to get the project set up:
 
 ## Running the Application
 
-1. **Start NGROK**
+1. **Run the application**
+
+   From the project root, run `php artisan serve`.
+
+2. **Start NGROK**
 
    You can start NGROK using the following command:
 
     ```shell
-    ngrok http 8000
+    ngrok http http://localhost:8000/
     ```
 
    This will expose your local web server on port 8000 to the internet.
-
-2. **Run the application**
-
-   From the project root, run `php artisan serve`. The application should now be available at your NGROK URL and ready for testing SSO.
+   
+   The application should now be available at your NGROK URL and ready for testing SSO.
